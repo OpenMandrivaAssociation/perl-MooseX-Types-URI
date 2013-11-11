@@ -1,15 +1,15 @@
 %define upstream_name    MooseX-Types-URI
-%define upstream_version 0.02
+%define upstream_version 0.03
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	L<URI> related types and coercions for Moose
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/MooseX/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/MooseX/MooseX-Types-URI-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Moose)
@@ -55,4 +55,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Tue Aug 24 2010 Jérôme Quelin <jquelin@mandriva.org> 0.20.0-1mdv2011.0
 + Revision: 572868
 - import perl-MooseX-Types-URI
+
 
