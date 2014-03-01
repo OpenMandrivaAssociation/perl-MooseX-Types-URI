@@ -1,4 +1,5 @@
 removed_sources:
   MooseX-Types-URI-0.02.tar.gz: 57be60960db0aa77791a9344a27fdea5ee4a4402
-sources:
   MooseX-Types-URI-0.03.tar.gz: bef57d84637cf22a1ea9fd9db32875eec4f88ff5
+sources:
+  MooseX-Types-URI-0.05.tar.gz: ac8d5e9bb29092db19a07dfb194ca950b0e1358e
