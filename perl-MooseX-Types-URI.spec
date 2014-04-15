@@ -18,6 +18,7 @@ BuildRequires:	perl(Test::use::ok)
 BuildRequires:	perl(URI)
 BuildRequires:	perl(URI::FromHash)
 BuildRequires:	perl(namespace::clean)
+BuildRequires:	perl(namespace::autoclean)
 BuildArch:	noarch
 
 %description
@@ -45,15 +46,3 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes META.yml
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
-
-%changelog
-* Sat Apr 16 2011 Funda Wang <fwang@mandriva.org> 0.20.0-2mdv2011.0
-+ Revision: 653606
-- rebuild for updated spec-helper
-
-* Tue Aug 24 2010 Jérôme Quelin <jquelin@mandriva.org> 0.20.0-1mdv2011.0
-+ Revision: 572868
-- import perl-MooseX-Types-URI
-
-
-
