@@ -1,15 +1,13 @@
 %define upstream_name    MooseX-Types-URI
-%define upstream_version 0.10
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	0.10
+Release:	2
 
 Summary:	L<URI> related types and coercions for Moose
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/moose/MooseX-Types-URI
-Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Types-URI-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/MooseX-Types-URI-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -32,7 +30,7 @@ ducktyping will work anyway (e.g. the URI::WithBase manpage does not
 inherit the URI manpage).
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
